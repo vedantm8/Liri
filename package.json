@@ -13,7 +13,18 @@
     "dotenv": "^6.0.0",
     "inquirer": "^6.0.0",
     "node-spotify-api": "^1.0.7",
+    "omdb": "^0.8.0",
     "request": "^2.87.0",
+    "spotify": "^0.3.0",
     "twitter": "^1.7.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vedantm8/Lirl.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vedantm8/Lirl/issues"
+  },
+  "homepage": "https://github.com/vedantm8/Lirl#readme"
 }
