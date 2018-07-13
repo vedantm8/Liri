@@ -130,3 +130,24 @@ function movie(movie) {
         }
     })
 }
+function something() {
+    //THis will search for something 
+    spotify.search({ type: 'track', query: 'I want it that way' },
+    function(err, data) {
+        if (err) {
+            console.log('Error : ' + err);
+            return;
+        }
+
+        // Do something with 'data'
+        else {
+            console.log('Artist: ' + data.tracks.items[0].artists[0].name);
+            console.log('Album ' + data.tracks.items[0].album.name);
+
+            // console.log('Artist: ' + data.tracks.items[0].artists[0]);
+            // console.log('Album: ' + data.tracks.items[0].album[0]);
+            // console.log('Song Name: ' + data.tracks.items[0]);
+        }
+        console.log(err);
+    });
+}
